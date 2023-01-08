@@ -3,7 +3,8 @@
 [Source](https://github.com/clij/clij2-docs/tree/master/src/main/macro/count_neighbors.ijm)
 
 This notebook introduces two techniques for counting neighbors in grids of cells.
-
+
+
 Let's start by cleaaning up and opening an example dataset. 
 The dataset was made by Craig S. Kaplan ([@cs_kaplan](https://twitter.com/cs_kaplan)) and [shared via Twitter](https://twitter.com/cs_kaplan/status/1359945996806029321?s=20)
 For cleaning up and loading the image, we use ImageJ-functions:
@@ -13,8 +14,9 @@ run("Close All");
 run("Clear Results");
 
 // open a binary image
-open("C:/structure/code/clij2-docs/md/count_neighbors/mesh_sim_from_cs_kaplan.tif");
+//open("C:/structure/code/clij2-docs/md/count_neighbors/mesh_sim_from_cs_kaplan.tif");
 //open("https://github.com/clij/clij2-docs/blob/master/md/count_neighbors/mesh_sim_from_cs_kaplan.tif?raw=true");
+open("https://github.com/clij/clij2-docs/raw/master/md/count_neighbors/mesh_sim_from_cs_kaplan.tif");
 /*
 We now initialize the GPU and push the image as explained in the [basics of clij tutorial](https://clij.github.io/clij2-docs/md/basics/).
 */
